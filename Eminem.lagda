@@ -128,18 +128,13 @@ open import Level
   )
 open import Function
   using (
-    _$_;
-    _∘_
+    _$_
   )
 open import Data.Product
  using (
    proj₂;
    proj₁;
    Σ
- )
-open import Relation.Unary
- using (
-   _⊆′_
  )
 open import Relation.Nullary
  using (
@@ -248,7 +243,9 @@ SIMPLIFICATION.\@  \F{tgs→sinxa}\ is a proof (under the context of VARIK) of t
 
 \begin{code}
 tgs→sinxa : ∀ {a} → {A : Set a}
-          → Sesmuni {A = A} ⊆′ Σ Sidbo ∘ Sinxa
+          → (t : A)
+          → Sesmuni t
+          → Σ Sidbo $ Sinxa t
 tgs→sinxa = {!!}
 \end{code}
 
