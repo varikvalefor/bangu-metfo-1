@@ -122,6 +122,13 @@ tegerna-sinxa : (b : Bangu)
 tegerna-sinxa = {!!}
 \end{code}
 
+\section{le su'u na'e metfo kei se ctaipe / The Literalness Type}
+\paragraph{la .lojban.}
+ni'o ga jo ctaipe la'o zoi.\ \F{Literal}\ \B x .zoi.\ gi la'oi .\B x.\ na'e metfo
+
+\paragraph{English}
+A term of \F{Literal} \B x exists iff \B x is literal.
+
 \begin{code}
 Literal : (b : Bangu) → (tg : Tegerna b) → Set
 Literal _ tg = ¬ IsMetfo tg
