@@ -154,7 +154,7 @@ Sidbo : Set
 Sidbo = {!!}
 \end{code}
 
-\section{le su'u sinxa kei se ctaipe / The Representation Type}
+\section{le se ctaipe co su'u sinxa / The Representation Type}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \F{Sinxa} \B x \B z\ .zoi.\ gi la'oi .\B x.\ sinxa la'oi .\B z.
 
