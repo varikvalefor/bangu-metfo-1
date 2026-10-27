@@ -196,18 +196,6 @@ sinxa→metfo : ∀ {a b} → {A : Set a} → {B : Set b}
 sinxa→metfo = {!!}
 \end{code}
 
-\subsection{le se ctaipe co su'u na'e metfo / The Literalness Type}
-\paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{Literal}\ \B x .zoi.\ gi la'oi .\B x.\ na'e metfo
-
-\paragraph{English}
-A term of \F{Literal} \B x exists iff \B x is literal.
-
-\begin{code}
-Literal : (b : Bangu) → Tegerna b → Set
-Literal _ tg = ¬ IsMetfo tg
-\end{code}
-
 \section{le se ctaipe pe lo bangu / Types Regarding Languages}
 
 \subsection{le bangu se ctaipe / The Language Type}
@@ -259,6 +247,18 @@ tgs→sinxa : (b : Bangu)
           → Sesmuni t
           → Σ Sidbo $ Sinxa t
 tgs→sinxa = {!!}
+\end{code}
+
+\subsection{le se ctaipe co su'u na'e metfo / The Literalness Type}
+\paragraph{la .lojban.}
+ni'o ga jo ctaipe la'o zoi.\ \F{Literal}\ \B x .zoi.\ gi la'oi .\B x.\ na'e metfo
+
+\paragraph{English}
+A term of \F{Literal} \B x exists iff \B x is literal.
+
+\begin{code}
+Literal : (b : Bangu) → Tegerna b → Set
+Literal _ tg = ¬ IsMetfo tg
 \end{code}
 
 \section{le ctaipe be le su'u lo no te gerna je se smuni cu na'e metfo / The Proof of that (No Meaningful Linguistic Utterance is Literal)}
