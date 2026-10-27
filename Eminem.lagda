@@ -173,7 +173,7 @@ Sinxa = {!!}
 ni'o ga jo ctaipe la'o zoi.\ \F{IsMetfo} \B x .zoi.\ gi la'oi .\B x.\ metfo
 
 \paragraph{English}
-Iff a term of \F{IsMetfo} \B x exists, then \B x is a metaphor.
+A term of \F{IsMetfo} \B x exists iff \B x is a metaphor.
 
 \begin{code}
 IsMetfo : ∀ {a} → {A : Set a} → A → Set a
