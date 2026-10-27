@@ -95,6 +95,13 @@ Tegerna : Bangu → Set
 Tegerna = {!!}
 \end{code}
 
+\section{le se smuni se ctaipe / The Type of Meaningful Things}
+\paragraph{la .lojban.}
+ni'o ga jo ctaipe la'o zoi.\ \F{Sesmuni} \B x\ .zoi.\ gi smuni la'oi .\B x.
+
+\paragraph{English}
+A term of \F{Sesmuni} \B x exists iff \B x is meaningful to some prenu.
+
 \begin{code}
 Sesmuni : ∀ {a} → {A : Set a} → A → Set a
 Sesmuni = {!!}
