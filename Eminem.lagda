@@ -236,14 +236,14 @@ Sesmuni = {!!}
 
 \subsection{le ctaipe be le su'u se smuni naja cu sinxa / The Proof of that (Being Meaningful Implies Representation)}
 \paragraph{la .lojban.}
-ni'o sa'u la'o zoi.\ \F{tgs→sinxa}\ .zoi.\ ctaipe fi zo'e pe la .varik.\ fe le su'u lo ro te gerna cu se smuni naja cu sinxa lo sidbo
+ni'o sa'u la'o zoi.\ \F{tgs→sinxa}\ .zoi.\ ctaipe fi zo'e pe la .varik.\ fe le su'u lo ro co'e cu se smuni naja cu sinxa lo sidbo
 
 \paragraph{English}
-SIMPLIFICATION.\@  \F{tgs→sinxa}\ is a proof (under the context of VARIK) of that (for all linguistic utterances $t$, if $t$ is meaningful to some prenu, then $t$ represents some idea).
+SIMPLIFICATION.\@  \F{tgs→sinxa}\ is a proof (under the context of VARIK) of that (for all things $t$, if $t$ is meaningful to some prenu, then $t$ represents some idea).
 
 \begin{code}
-tgs→sinxa : (b : Bangu)
-          → (t : Tegerna b)
+tgs→sinxa : ∀ {a} → {A : Set a}
+          → (t : A)
           → Sesmuni t
           → Σ Sidbo $ Sinxa t
 tgs→sinxa = {!!}
@@ -272,7 +272,7 @@ SIMPLIFICATION.\@  \F{Sm→¬L} is a proof (under the combination of the context
 Sm→¬L : (b : Bangu) → (t : Tegerna b) → Sesmuni t → ¬ Literal b t
 Sm→¬L b tg s = _$ sinxa→metfo tg (proj₁ ts) $ proj₂ ts
   where
-  ts = tgs→sinxa b tg s
+  ts = tgs→sinxa tg s
 \end{code}
 
 \section{tu'a le pu'u ciksi / Thing regarding the Process of Defining}
