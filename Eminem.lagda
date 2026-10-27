@@ -257,7 +257,7 @@ Literal _ tg = ¬ IsMetfo tg
 
 \section{le ctaipe be le su'u lo no te gerna je se smuni cu na'e metfo / The Proof of that (No Meaningful Linguistic Utterance is Literal)}
 \paragraph{la .lojban.}
-ni'o sa'u la'o zoi.\ \F{¬[Bangu-Literal]}.\ ctaipe fi zo'e pe la .varik.\ ge'u joi le co'e ja se sruma fe le su'u lo no te gerna be lo bangu je se smuni cu na'e metfo
+ni'o sa'u la'o zoi.\ \F{¬[Bangu-Literal]}\ .zoi.\ ctaipe fi zo'e pe la .varik.\ ge'u joi le co'e ja se sruma fe le su'u lo no te gerna be lo bangu je se smuni cu na'e metfo
 
 \paragraph{English}
 SIMPLIFICATION.  \F{¬[Bangu-Literal]} is a proof (under the combination of the context (of VARIK) and assumptions/whatever) that no linguistic utterance which is meaningful is literal.
