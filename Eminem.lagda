@@ -108,7 +108,6 @@ Sesmuni = {!!}
 \end{code}
 
 \section{le ctaipe be le su'u se smuni naja cu sinxa / The Proof of that (Being Meaningful Implies Representation)}
-
 \paragraph{la .lojban.}
 ni'o sa'u la'o zoi.\ \F{tegerna-sinxa}\ .zoi.\ ctaipe fi zo'e pe la .varik.\ fe le su'u lo ro te gerna cu se smuni naja cu sinxa lo sidbo
 
