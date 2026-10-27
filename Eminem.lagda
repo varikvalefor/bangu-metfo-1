@@ -271,4 +271,11 @@ SIMPLIFICATION.  \F{¬[Bangu-Literal]} is a proof (under the combination of the 
   where
   ts = tegerna-sinxa b tg s
 \end{code}
+
+\section{tu'a le pu'u ciksi / Thing regarding the Process of Defining}
+\paragraph{la .lojban.}
+ni'o la .varik.\ cu morji le du'u vo'a masno lo pu'u vo'a ciksi lo su'u metfo je lo su'u na'e metfo... kei pu lo nu vo'a facki le du'u frili cumki fa lo nu ciksi fo tu'a le su'u lo metfo cu sinxa joi le su'u na'e metfo jo cu\ldots na'e metfo\sds  .i la .varik.\ cu jinvi le du'u le co'e ja se sruma joi tu'a lo si'o me'oi .semiotics.\ cu jai rinka lo nu li'armi vo'a fa le du'u na na'e metfo
+
+\paragraph{English}
+VARIK remembers that that (VARIK is slow in defining ``metaphor'' and ``literal statement'') precedes that (VARIK discovers that a thing which is feasible is that VARIK defines with that (metaphors are signs) and that (for all $x$, $x$ is a literal statement iff $x$ is not a metaphor)).  VARIK opines that the combination of the assumptions/whatever and semiotics stuff causes that the conclusion is obvious for VARIK.
 \end{document}
