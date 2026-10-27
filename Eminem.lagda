@@ -19,6 +19,13 @@ open import Relation.Nullary
  )
 \end{code}
 
+\section{le sidbo se ctaipe / The Idea Type}
+\paragraph{la .lojban.}
+ni'o lo ro co'e cu ctaipe la'oi .\F{Sidbo}.\ jo cu sidbo
+
+\paragraph{English}
+For all $x$, $x$ is a term of \F{Sidbo} iff $x$ is an idea.
+
 \begin{code}
 Sidbo : Set
 Sidbo = {!!}
