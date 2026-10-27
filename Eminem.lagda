@@ -120,6 +120,8 @@ VARIK opines (with that (all representations are metaphors), that (all linguisti
 \section{le vrici / The Miscellaneous}
 
 \begin{code}
+{-# OPTIONS --safe #-}
+
 open import Level
   using (
     _⊔_
