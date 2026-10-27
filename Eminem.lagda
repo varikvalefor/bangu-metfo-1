@@ -83,6 +83,13 @@ Bangu : Set
 Bangu = {!!}
 \end{code}
 
+\section{le te gerna se ctaipe / The Utterance Type}
+\paragraph{la .lojban.}
+ni'o ro da poi ke'a ctaipe la'oi .\F{Bangu}. zo'u lo ro co'e cu ctaipe lo me'oi .\F{Tegerna}.\ be da jo cu te gerna da
+
+\paragraph{English}
+For all \F{Bangu} \B x, for all $t$, $t$ is a term of \F{Tegerna} \B x iff $t$ is grammatical w.r.t.\ \B x.
+
 \begin{code}
 Tegerna : Bangu → Set
 Tegerna = {!!}
