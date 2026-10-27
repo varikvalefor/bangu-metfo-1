@@ -263,10 +263,7 @@ ni'o sa'u la'o zoi.\ \F{Sm→¬L}\ .zoi.\ ctaipe fi zo'e pe la .varik.\ ge'u joi
 SIMPLIFICATION.  \F{Sm→¬L} is a proof (under the combination of the context (of VARIK) and assumptions/whatever) that no linguistic utterance which is meaningful is literal.
 
 \begin{code}
-Sm→¬L : (b : Bangu)
-      → (t : Tegerna b)
-      → Sesmuni t
-      → ¬ Literal b t
+Sm→¬L : (b : Bangu) → (t : Tegerna b) → Sesmuni t → ¬ Literal b t
 Sm→¬L b tg s = _$ sinxa→metfo tg (proj₁ ts) $ proj₂ ts
   where
   ts = tegerna→sinxa b tg s
