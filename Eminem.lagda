@@ -71,6 +71,13 @@ sinxa→metfo : ∀ {a b} → {A : Set a} → {B : Set b}
 sinxa→metfo = {!!}
 \end{code}
 
+\section{le bangu se ctaipe / The Language Type}
+\paragraph{la .lojban.}
+ni'o la'oi .\F{Bangu}.\ ctaipe lo ro bangu jenai zo'e
+
+\paragraph{English}
+\F{Bangu} is the type of all languages.
+
 \begin{code}
 Bangu : Set
 Bangu = {!!}
