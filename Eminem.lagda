@@ -110,10 +110,9 @@ VARIK (with English and Agda) defines a proof (under the context of VARIK) of th
 \section{le torveki / Summary}
 \subsection{la .lojban.}
 ni'o la .varik.\ cu jinvi le du'u lo no te gerna je se smuni cu na'e metfo kei fo ga joi\ldots
-\begin{itemize}
 	\item zo'e gi ga joi
-	\item lo ro sinxa cu metfo gi
-	\item lo ro te gerna je se smuni cu sinxa lo sidbo
+	\item le su'u lo ro sinxa cu metfo gi
+	\item le su'u lo ro te gerna je se smuni cu sinxa lo sidbo
 \end{itemize}
 
 \subsection{English}
