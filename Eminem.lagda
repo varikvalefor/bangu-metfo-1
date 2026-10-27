@@ -262,7 +262,7 @@ Literal _ tg = ¬ IsMetfo tg
 ni'o sa'u la'o zoi.\ \F{Sm→¬L}\ .zoi.\ ctaipe fi zo'e pe la .varik.\ ge'u joi le co'e ja se sruma fe le su'u lo no te gerna be lo bangu je se smuni cu na'e metfo
 
 \paragraph{English}
-SIMPLIFICATION.  \F{Sm→¬L} is a proof (under the combination of the context (of VARIK) and assumptions/whatever) that no linguistic utterance which is meaningful is literal.
+SIMPLIFICATION.\@  \F{Sm→¬L} is a proof (under the combination of the context (of VARIK) and assumptions/whatever) that no linguistic utterance which is meaningful is literal.
 
 \begin{code}
 Sm→¬L : (b : Bangu) → (t : Tegerna b) → Sesmuni t → ¬ Literal b t
