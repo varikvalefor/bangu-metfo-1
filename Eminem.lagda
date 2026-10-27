@@ -31,6 +31,13 @@ Sidbo : Set
 Sidbo = {!!}
 \end{code}
 
+\section{le su'u sinxa kei se ctaipe / The Representation Type}
+\paragraph{la .lojban.}
+ni'o ga jo ctaipe la'o zoi.\ \F{Sinxa} \B x \B z\ .zoi.\ gi la'oi .\B x.\ sinxa la'oi .\B z.
+
+\paragraph{English}
+Iff a term of \F{Sinxa} \B x \B z exists, then \B x represents/(is-a-sign-for) \B z.
+
 \begin{code}
 Sinxa : ∀ {a b} → {A : Set a} → {B : Set b} → A → B → Set (a ⊔ b)
 Sinxa = {!!}
