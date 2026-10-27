@@ -181,7 +181,7 @@ IsMetfo = {!!}
 ni'o sa'u la'o zoi.\ \F{sinxa→metfo}\ .zoi.\ ctaipe fi zo'e pe la .varik.\ fe le su'u ro da zo'u da sinxa lo su'u co'e naja cu metfo\sds  .i la .varik.\ cu jinvi le du'u srana fa le se .urli be zoi .urli.\ \url{https://www.merriam-webster.com/dictionary/metaphor}\ .urli.\sds  .i la .varik.\ cu jinvi le du'u le bangu smuni be zo'oi .metaphor.\ cu mupli le ka le smuni cu mapti ce'u kei jenai cu frica le vrici smuni
 
 \paragraph{English}
-SIMPLIFICATION.\@  \F{sinxa→metfo} is a proof (under the context of VARIK) of that (for all things $x$, if $x$ represents some thing, then $x$ is a metaphor).  VARIK opines that the definition ``at'' \url{https://www.merriam-webster.com/dictionary/metaphor} is relevant.  VARIK opines that the linguistic meaning of ``metaphor'' is a special case of the general meaning of ``metaphor'' and does not contradict the general case.
+SIMPLIFICATION.\@  \F{sinxa→metfo} is a proof (under the context of VARIK) of that (for all things $x$, if $x$ represents some thing, then $x$ is a metaphor).  VARIK opines that (the definition ``at'' \url{https://www.merriam-webster.com/dictionary/metaphor} is relevant) and that (the linguistic meaning of ``metaphor'' is a special case of the general meaning of ``metaphor'' and does not contradict the general case).
 
 \begin{code}
 sinxa→metfo : ∀ {a b} → {A : Set a} → {B : Set b}
