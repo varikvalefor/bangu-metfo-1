@@ -43,6 +43,13 @@ Sinxa : ∀ {a b} → {A : Set a} → {B : Set b} → A → B → Set (a ⊔ b)
 Sinxa = {!!}
 \end{code}
 
+\section{le metfo se ctaipe / The Metaphor Type}
+\paragraph{la .lojban.}
+ni'o ga jo ctaipe la'o zoi.\ \F{IsMetfo} \B x .zoi.\ gi la'oi .\B x.\ metfo
+
+\paragraph{English}
+Iff a term of \F{IsMetfo} \B x exists, then \B x is a metaphor.
+
 \begin{code}
 IsMetfo : ∀ {a} → {A : Set a} → A → Set a
 IsMetfo = {!!}
