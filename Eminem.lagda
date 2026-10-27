@@ -264,9 +264,9 @@ SIMPLIFICATION.  \F{Sm→¬L} is a proof (under the combination of the context (
 
 \begin{code}
 Sm→¬L : (b : Bangu)
-      → (tg : Tegerna b)
-      → Sesmuni tg
-      → ¬ Literal b tg
+      → (t : Tegerna b)
+      → Sesmuni t
+      → ¬ Literal b t
 Sm→¬L b tg s = _$ sinxa→metfo tg (proj₁ ts) $ proj₂ ts
   where
   ts = tegerna→sinxa b tg s
