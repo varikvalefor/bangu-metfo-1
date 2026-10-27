@@ -142,7 +142,9 @@ open import Relation.Nullary
  )
 \end{code}
 
-\section{le sidbo se ctaipe / The Idea Type}
+\section{le sucta je se ctaipe / The Types which are Abstract}
+
+\subsection{le sidbo se ctaipe / The Idea Type}
 \paragraph{la .lojban.}
 ni'o lo ro co'e cu ctaipe la'oi .\F{Sidbo}.\ jo cu sidbo
 
@@ -154,7 +156,7 @@ Sidbo : Set
 Sidbo = {!!}
 \end{code}
 
-\section{le se ctaipe co su'u sinxa / The Representation Type}
+\subsection{le se ctaipe co su'u sinxa / The Representation Type}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \F{Sinxa} \B x \B z\ .zoi.\ gi la'oi .\B x.\ sinxa la'oi .\B z.
 
@@ -166,7 +168,7 @@ Sinxa : ∀ {a b} → {A : Set a} → {B : Set b} → A → B → Set (a ⊔ b)
 Sinxa = {!!}
 \end{code}
 
-\section{le metfo se ctaipe / The Metaphor Type}
+\subsection{le metfo se ctaipe / The Metaphor Type}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \F{IsMetfo} \B x .zoi.\ gi la'oi .\B x.\ metfo
 
@@ -178,7 +180,7 @@ IsMetfo : ∀ {a} → {A : Set a} → A → Set a
 IsMetfo = {!!}
 \end{code}
 
-\section{le ctaipe be le su'u sinxa naja cu metfo / The Proof of that (Representations are Metaphors)}
+\subsection{le ctaipe be le su'u sinxa naja cu metfo / The Proof of that (Representations are Metaphors)}
 \paragraph{la .lojban.}
 ni'o sa'u la'o zoi.\ \F{sinxa→metfo}\ .zoi.\ ctaipe fi zo'e pe la .varik.\ fe le su'u ro da zo'u da sinxa lo su'u co'e naja cu metfo\sds  .i la .varik.\ cu jinvi le du'u srana fa le se .urli be zoi .urli.\ \url{https://www.merriam-webster.com/dictionary/metaphor}\ .urli.\sds  .i la .varik.\ cu jinvi le du'u le bangu smuni be zo'oi .metaphor.\ cu mupli le ka le smuni cu mapti ce'u kei jenai cu frica le vrici smuni
 
@@ -194,7 +196,9 @@ sinxa→metfo : ∀ {a b} → {A : Set a} → {B : Set b}
 sinxa→metfo = {!!}
 \end{code}
 
-\section{le bangu se ctaipe / The Language Type}
+\section{le se ctaipe pe lo bangu / Types Regarding Languages}
+
+\subsection{le bangu se ctaipe / The Language Type}
 \paragraph{la .lojban.}
 ni'o la'oi .\F{Bangu}.\ ctaipe lo ro bangu jenai zo'e
 
@@ -206,7 +210,7 @@ Bangu : Set
 Bangu = {!!}
 \end{code}
 
-\section{le te gerna se ctaipe / The Utterance Type}
+\subsection{le te gerna se ctaipe / The Utterance Type}
 \paragraph{la .lojban.}
 ni'o ro da poi ke'a ctaipe la'oi .\F{Bangu}. zo'u lo ro co'e cu ctaipe lo me'oi .\F{Tegerna}.\ be da jo cu te gerna da
 
@@ -218,7 +222,7 @@ Tegerna : Bangu → Set
 Tegerna = {!!}
 \end{code}
 
-\section{le se smuni se ctaipe / The Type of Meaningful Things}
+\subsection{le se smuni se ctaipe / The Type of Meaningful Things}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \F{Sesmuni} \B x\ .zoi.\ gi smuni la'oi .\B x.
 
@@ -230,7 +234,7 @@ Sesmuni : ∀ {a} → {A : Set a} → A → Set a
 Sesmuni = {!!}
 \end{code}
 
-\section{le ctaipe be le su'u se smuni naja cu sinxa / The Proof of that (Being Meaningful Implies Representation)}
+\subsection{le ctaipe be le su'u se smuni naja cu sinxa / The Proof of that (Being Meaningful Implies Representation)}
 \paragraph{la .lojban.}
 ni'o sa'u la'o zoi.\ \F{tgs→sinxa}\ .zoi.\ ctaipe fi zo'e pe la .varik.\ fe le su'u lo ro te gerna cu se smuni naja cu sinxa lo sidbo
 
@@ -245,7 +249,7 @@ tgs→sinxa : (b : Bangu)
 tgs→sinxa = {!!}
 \end{code}
 
-\section{le se ctaipe co su'u na'e metfo / The Literalness Type}
+\subsection{le se ctaipe co su'u na'e metfo / The Literalness Type}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \F{Literal}\ \B x .zoi.\ gi la'oi .\B x.\ na'e metfo
 
