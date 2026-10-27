@@ -2,6 +2,7 @@
 
 \usepackage{ar}
 \usepackage[bw]{agda}
+\usepackage{xurl}
 \usepackage{ifsym}
 \usepackage{xcolor}
 \usepackage{amsmath}
@@ -103,6 +104,18 @@ ni'o bau la .lojban.\ joi la'oi .Agda.\ la .varik.\ cu ciksi le ctaipe\ldots be 
 
 VARIK (with English and Agda) defines a proof (under the context of VARIK) of that (no linguistic utterance which is meaningful is literal).
 \end{abstract}
+
+\section{le torveki / Summary}
+\subsection{la .lojban.}
+ni'o la .varik.\ cu jinvi le du'u lo no te gerna je se smuni cu na'e metfo kei fo ga joi\ldots
+\begin{itemize}
+	\item zo'e gi ga joi
+	\item lo ro sinxa cu metfo gi
+	\item lo ro te gerna je se smuni cu sinxa lo sidbo
+\end{itemize}
+
+\subsection{English}
+VARIK opines (with that (all representations are metaphors), that (all linguistic utterances which are meaningful are representations of ideas), that (no metaphor is literal), and whatnot) that (no linguistic utterance which is meaningful is literal).
 
 \section{le vrici / The Miscellaneous}
 
