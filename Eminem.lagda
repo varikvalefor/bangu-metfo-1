@@ -85,6 +85,8 @@
 \newunicodechar{⊔}{\ensuremath{\mathnormal{\sqcup}}}
 \newunicodechar{⍨}{\ensuremath{\raisebox{-0.25ex}{\ddot\sim}}}
 
+\newcommand\sds{\spacefactor\sfcode`.\ \space}
+
 \newcommand\Sym\AgdaSymbol
 \newcommand\D\AgdaDatatype
 \newcommand\F\AgdaFunction
