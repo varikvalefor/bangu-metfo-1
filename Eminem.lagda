@@ -230,17 +230,17 @@ Sesmuni = {!!}
 
 \section{le ctaipe be le su'u se smuni naja cu sinxa / The Proof of that (Being Meaningful Implies Representation)}
 \paragraph{la .lojban.}
-ni'o sa'u la'o zoi.\ \F{tegerna-sinxa}\ .zoi.\ ctaipe fi zo'e pe la .varik.\ fe le su'u lo ro te gerna cu se smuni naja cu sinxa lo sidbo
+ni'o sa'u la'o zoi.\ \F{tegerna→sinxa}\ .zoi.\ ctaipe fi zo'e pe la .varik.\ fe le su'u lo ro te gerna cu se smuni naja cu sinxa lo sidbo
 
 \paragraph{English}
-SIMPLIFICATION.\@  \F{tegerna-sinxa}\ is a proof (under the context of VARIK) of that (for all linguistic utterances $t$, if $t$ is meaningful to some prenu, then $t$ represents some idea).
+SIMPLIFICATION.\@  \F{tegerna→sinxa}\ is a proof (under the context of VARIK) of that (for all linguistic utterances $t$, if $t$ is meaningful to some prenu, then $t$ represents some idea).
 
 \begin{code}
-tegerna-sinxa : (b : Bangu)
+tegerna→sinxa : (b : Bangu)
               → (tg : Tegerna b)
               → Sesmuni tg
               → Σ Sidbo $ Sinxa tg
-tegerna-sinxa = {!!}
+tegerna→sinxa = {!!}
 \end{code}
 
 \section{le su'u na'e metfo kei se ctaipe / The Literalness Type}
@@ -269,7 +269,7 @@ SIMPLIFICATION.  \F{¬[Bangu-Literal]} is a proof (under the combination of the 
                  → ¬ Literal b tg
 ¬[Bangu-Literal] b tg s = _$ sinxa→metfo tg (proj₁ ts) $ proj₂ ts
   where
-  ts = tegerna-sinxa b tg s
+  ts = tegerna→sinxa b tg s
 \end{code}
 
 \section{tu'a le pu'u ciksi / Thing regarding the Process of Defining}
