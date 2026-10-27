@@ -102,8 +102,11 @@
 
 \begin{abstract}
 \noindent
+\paragraph{la .lojban.}
 ni'o bau la .lojban.\ joi la'oi .Agda.\ la .varik.\ cu ciksi le ctaipe\ldots be fi zo'e pe vo'a\ldots bei fe le su'u lo no se smuni je ke te gerna be lo bangu cu na'e metfo\sds  .i la .varik.\ na djica lo nu co'e ja tugni ri fa lo prenu jenai ke du be ri
 
+\noindent
+\paragraph{English}
 VARIK (with English and Agda) defines a proof (under the context of VARIK) of that (no linguistic utterance which is meaningful is literal).  VARIK does not desire that prenu which are not VARIK agree/whatever with VARIK.
 \end{abstract}
 
