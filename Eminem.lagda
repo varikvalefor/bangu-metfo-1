@@ -239,9 +239,9 @@ SIMPLIFICATION.\@  \F{tgs→sinxa}\ is a proof (under the context of VARIK) of t
 
 \begin{code}
 tgs→sinxa : (b : Bangu)
-              → (tg : Tegerna b)
-              → Sesmuni tg
-              → Σ Sidbo $ Sinxa tg
+          → (tg : Tegerna b)
+          → Sesmuni tg
+          → Σ Sidbo $ Sinxa tg
 tgs→sinxa = {!!}
 \end{code}
 
