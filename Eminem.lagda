@@ -253,7 +253,7 @@ ni'o ga jo ctaipe la'o zoi.\ \F{Literal}\ \B x .zoi.\ gi la'oi .\B x.\ na'e metf
 A term of \F{Literal} \B x exists iff \B x is literal.
 
 \begin{code}
-Literal : (b : Bangu) → (tg : Tegerna b) → Set
+Literal : (b : Bangu) → Tegerna b → Set
 Literal _ tg = ¬ IsMetfo tg
 \end{code}
 
