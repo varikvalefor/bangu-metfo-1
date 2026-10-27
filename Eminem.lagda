@@ -107,6 +107,14 @@ Sesmuni : ∀ {a} → {A : Set a} → A → Set a
 Sesmuni = {!!}
 \end{code}
 
+\section{le ctaipe be le su'u se smuni naja cu sinxa / The Proof of that (Being Meaningful Implies Representation)}
+
+\paragraph{la .lojban.}
+ni'o sa'u la'o zoi.\ \F{tegerna-sinxa}\ .zoi.\ ctaipe fi zo'e pe la .varik.\ fe le su'u lo ro te gerna cu se smuni naja cu sinxa lo sidbo
+
+\paragraph{English}
+SIMPLIFICATION.\@  \F{tegerna-sinxa}\ is a proof (under the context of VARIK) of that (for all linguistic utterances $t$, if $t$ is meaningful to some prenu, then $t$ represents some idea).
+
 \begin{code}
 tegerna-sinxa : (b : Bangu)
               → (tg : Tegerna b)
